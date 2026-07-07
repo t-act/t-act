@@ -12,10 +12,14 @@ Hi there. I'm Takuto Motoki, a software engineer from Japan.
   </picture>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sec-01-stack-dark.svg">
-  <img src="assets/sec-01-stack.svg" alt="01 技術スタック / TECH STACK" width="100%" />
-</picture>
+
+## 経歴
+
+- 修士（物理）：核融合プラズマの実験データ解析
+- 現在：ソフトウェアエンジニアとして、既存プロダクトへのAIエージェント機能追加の開発に従事
+
+
+## 技術スタック
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -28,10 +32,7 @@ Hi there. I'm Takuto Motoki, a software engineer from Japan.
 
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sec-02-repos-dark.svg">
-  <img src="assets/sec-02-repos.svg" alt="02 主なリポジトリ / REPOSITORIES" width="100%" />
-</picture>
+## 主なリポジトリ
 
 | リポジトリ | 概要 | 技術 |
 |-----------|------|------|
@@ -39,19 +40,9 @@ Hi there. I'm Takuto Motoki, a software engineer from Japan.
 | [til](https://github.com/t-act/til) | 毎日の学習記録。継続を仕組みで支えるコミットリマインダーをGitHub Actionsで自作 | Markdown / GitHub Actions |
 | [cmap](https://github.com/t-act/cmap) | 修士研究で開発した磁気面再構成コード。磁気センサーの計測値からプラズマ内部状態を推定する逆問題を反復最適化で解く | Python / NumPy |
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sec-03-learning-dark.svg">
-  <img src="assets/sec-03-learning.svg" alt="03 学習・実験 / LEARNING &amp; EXPERIMENTS" width="100%" />
-</picture>
+## 学習と実験
 
 - **深層学習・LLMの基礎**：『ゼロから作るDeep Learning』1・2・6巻（[1](https://github.com/t-act/deep-learning-from-scratch) / [2](https://github.com/t-act/deep-learning-2) / [6](https://github.com/t-act/deep-learning-6)）、『大規模言語モデル入門』（[intro-llm](https://github.com/t-act/intro-llm)）を実装しながら学習
 - **LLMアプリケーション**：RAG、LangChain / LangGraph、MCPサーバー、ファインチューニング、ローカルLLMの実験
 - **アルゴリズム**：[AtCoder](https://github.com/t-act/atcoder-training) で競技プログラミングに取り組み中
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sec-04-career-dark.svg">
-  <img src="assets/sec-04-career.svg" alt="04 経歴 / BACKGROUND" width="100%" />
-</picture>
-
-- 修士（物理）：核融合プラズマの実験データ解析
-- 現在：ソフトウェアエンジニアとして、既存プロダクトへのAIエージェント機能追加の開発に従事
