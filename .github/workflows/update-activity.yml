@@ -1,0 +1,43 @@
+name: Update activity heatmap
+
+on:
+  schedule:
+    - cron: "23 15 * * *" # 毎日 JST 0:23
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate heatmap SVG
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          FROM=$(date -u -d "182 days ago" +%Y-%m-%dT00:00:00Z)
+          TO=$(date -u +%Y-%m-%dT23:59:59Z)
+          gh api graphql -f query='
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                contributionCalendar {
+                  totalContributions
+                  weeks { contributionDays { date contributionCount } }
+                }
+              }
+            }
+          }' -f login=t-act -f from="$FROM" -f to="$TO" > /tmp/contrib.json
+          python3 scripts/generate_activity.py < /tmp/contrib.json > assets/activity.svg
+          python3 scripts/generate_activity.py --theme dark < /tmp/contrib.json > assets/activity-dark.svg
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg assets/activity-dark.svg
+          git diff --cached --quiet || git commit -m "chore: update activity heatmap"
+          git push
