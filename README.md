@@ -24,8 +24,8 @@ Hi there. I'm Takuto Motoki, a software engineer from Japan.
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,react,vue,fastapi,aws,docker,githubactions&theme=dark">
-      <img src="https://skillicons.dev/icons?i=py,ts,react,vue,fastapi,aws,docker,githubactions&theme=light" alt="Python, TypeScript, React, Vue, FastAPI, AWS, Docker, GitHub Actions" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
+      <img src="assets/skills.svg" alt="Python, TypeScript, React, Vue, FastAPI, AWS, Docker, GitHub Actions" />
     </picture>
   </a>
 </p>
