@@ -1,9 +1,9 @@
 # t-act
 
-Takuto Motoki — software engineer in Japan.
+**Takuto Motoki — software engineer in Japan.**
 
-修士（物理）で核融合プラズマの実験データ解析に取り組んだのち、現在はソフトウェアエンジニアとして既存プロダクトへのAIエージェント機能追加の開発に従事。
-
+修士（物理）で核融合プラズマの実験データ解析に取り組んだのち、現在はソフトウェアエンジニアとして既存プロダクトへのAIエージェント機能追加の開発に従事。</br>
+LLMを組み込んだプロダクト開発と、エージェントの設計・評価に関心があります。
 
 
 ## Main Repositories
