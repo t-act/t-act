@@ -17,12 +17,16 @@ LLMを組み込んだプロダクト開発と、エージェントの設計・�
   </thead>
   <tbody>
     <tr>
+      <td nowrap><a href="https://github.com/t-act/til">til</a></td>
+      <td>毎日の学習記録。継続を仕組みで支えるコミットリマインダーをGitHub Actionsで自作</td>
+    </tr>
+    <tr>
       <td nowrap><a href="https://github.com/t-act/quil">quil</a></td>
       <td>GitHubリポジトリのMarkdownをブラウザから直接編集・コミットできるWebアプリ。OAuth認証、暗号化Cookieによるステートレスセッション管理、IaC・CI/CDまで一貫して構築</td>
     </tr>
     <tr>
-      <td nowrap><a href="https://github.com/t-act/til">til</a></td>
-      <td>毎日の学習記録。継続を仕組みで支えるコミットリマインダーをGitHub Actionsで自作</td>
+      <td nowrap><a href="https://github.com/t-act/not-katakana">not-katakana</a></td>
+      <td>カタカナを使わずにお題を説明して当てる、対面で遊ぶ言葉当てWebゲーム。Cloudflare WorkersとDurable Objectsで、ルームごとの接続と持ち時間を管理</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/t-act/cmap">cmap</a></td>
